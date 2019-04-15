@@ -1,0 +1,6 @@
+{
+    "nodeEnv": "development",
+    "server": {
+        "port": 8080
+    }
+}

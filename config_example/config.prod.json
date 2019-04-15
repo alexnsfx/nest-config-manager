@@ -1,0 +1,6 @@
+{
+    "nodeEnv": "production",
+    "server": {
+        "port": 80
+    }
+}

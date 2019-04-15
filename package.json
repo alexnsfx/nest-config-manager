@@ -1,0 +1,57 @@
+{
+  "name": "nest-config-manager",
+  "version": "1.0.0",
+  "description": "A configuration manager for NestJS applications",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "lint": "tslint -p tsconfig.json -c tslint.json"
+  },
+  "dependencies": {
+    "@nestjs/common": "^6.0.4",
+    "@nestjs/core": "^6.0.4",
+    "@nestjs/microservices": "^6.0.4",
+    "@nestjs/platform-express": "^6.0.4",
+    "@nestjs/websockets": "^6.0.4",
+    "convict": "^4.4.1",
+    "dotenv": "^7.0.0",
+    "path": "^0.12.7",
+    "reflect-metadata": "0.1.13",
+    "rimraf": "2.6.3",
+    "rxjs": "6.4.0"
+  },
+  "devDependencies": {
+    "@nestjs/testing": "6.1.1",
+    "@types/convict": "^4.2.1",
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "4.16.1",
+    "@types/jest": "24.0.11",
+    "@types/node": "11.13.4",
+    "@types/supertest": "2.0.7",
+    "jest": "24.7.1",
+    "nodemon": "1.18.11",
+    "prettier": "1.17.0",
+    "supertest": "4.0.2",
+    "ts-jest": "24.0.2",
+    "ts-node": "8.1.0",
+    "tsconfig-paths": "3.8.0",
+    "tslint": "5.15.0",
+    "typescript": "3.4.3"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
+    "rootDir": "src",
+    "testRegex": ".spec.ts$",
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest"
+    },
+    "collectCoverageFrom": [
+      "**/*.(t|j)s"
+    ],
+    "coverageDirectory": "../coverage",
+    "testEnvironment": "node"
+  }
+}
